@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.fiu.sysdesign"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.fiu.sysdesign"},{"l":"edu.fiu.sysdesign.rover"},{"l":"edu.fiu.sysdesign.rover.sensor"},{"l":"edu.fiu.sysdesign.util"}];updateSearchResults();
