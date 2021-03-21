@@ -12,6 +12,8 @@
  */
 package edu.fiu.sysdesign;
 
+import edu.fiu.sysdesign.util.SelfCheckUtils;
+
 /**
  * The SelfCheckCapable Interface - creates some basic
  * necessitites for testing 
@@ -37,18 +39,5 @@ public interface SelfCheckCapable {
 	 * @return true if the self-check was successful, false otherwise.
 	 */
 	public boolean selfCheck();
-	
-	/**
-	 * This is a "runner" for the self-check process that will print
-	 * the status of this object and all its components to the
-	 * terminal. Nothing is changed, only
-	 * the status is printed. 
-	 * 
-	 * This will call the selfCheck method above to check status
-	 * of the different components.
-	 * 
-	 * @return true if the self-check was successful, false otherwise.
-	 */
-	public boolean runSelfCheck();
 
 }

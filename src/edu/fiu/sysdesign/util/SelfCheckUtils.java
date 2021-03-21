@@ -10,10 +10,12 @@
  * 
  * At the top of your class.
  */
-package edu.fiu.sysdesign;
+package edu.fiu.sysdesign.util;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import edu.fiu.sysdesign.SelfCheckCapable;
 
 /**
  * This will essentially be a class of Static methods that you can 
@@ -206,12 +208,6 @@ public class SelfCheckUtils {
 		public String getComponentName() {
 			// TODO Auto-generated method stub
 			return name;
-		}
-
-		@Override
-		public boolean runSelfCheck() {
-			// TODO Auto-generated method stub
-			return SelfCheckUtils.basicSelfCheckRunner(this);
 		}
 	}
 	
