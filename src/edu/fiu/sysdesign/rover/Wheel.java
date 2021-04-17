@@ -13,7 +13,7 @@ public class Wheel implements Component {
 	}
 
 	public void spin(Direction direction) {
-
+		System.out.printf("2.3 spin wheel in direction %s\n", direction);
 	}
 
 	@Override

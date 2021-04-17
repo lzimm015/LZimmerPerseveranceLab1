@@ -1,6 +1,6 @@
 package edu.fiu.sysdesign.rover.sensor;
 
-public class CollisionSensor implements Sensor {
+public class HazcamSensor implements Sensor {
 
 	@Override
 	public boolean selfCheck() {
@@ -10,12 +10,12 @@ public class CollisionSensor implements Sensor {
 
 	@Override
 	public String getComponentName() {
-		return "CollisionSensor";
+		return "HazcamSensor";
 	}
 
 	@Override
 	public void receiveSignal() {
-		
+	
 	}
 
 }

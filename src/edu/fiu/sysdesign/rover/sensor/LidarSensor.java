@@ -1,6 +1,6 @@
 package edu.fiu.sysdesign.rover.sensor;
 
-public class InfraredSensor implements Sensor {
+public class LidarSensor implements Sensor {
 
 	@Override
 	public boolean selfCheck() {
@@ -10,12 +10,12 @@ public class InfraredSensor implements Sensor {
 
 	@Override
 	public String getComponentName() {
-		return "InfraredSensor";
+		return "LidarSensor";
 	}
 
 	@Override
 	public void receiveSignal() {
-	
-	}
+		
+	} 
 
 }

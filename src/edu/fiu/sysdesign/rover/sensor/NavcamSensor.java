@@ -1,6 +1,6 @@
 package edu.fiu.sysdesign.rover.sensor;
 
-public class LightSensor implements Sensor {
+public class NavcamSensor implements Sensor {
 
 	@Override
 	public boolean selfCheck() {
@@ -10,12 +10,12 @@ public class LightSensor implements Sensor {
 
 	@Override
 	public String getComponentName() {
-		return "LightSensor";
+		return "NavcamSensor";
 	}
 
 	@Override
 	public void receiveSignal() {
 		
-	} 
+	}
 
 }
